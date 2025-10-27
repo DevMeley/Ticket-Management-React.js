@@ -1,5 +1,4 @@
-// FILE: src/context/AuthContext.jsx
-import React, { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect } from "react";
 import {
   login as loginService,
   signup as signupService,
@@ -13,7 +12,6 @@ export function AuthProvider({ children }) {
   const [session, setSession] = useState(() => getSession());
 
   useEffect(() => {
-    // keep session fresh
     setSession(getSession());
   }, []);
 
