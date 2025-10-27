@@ -4,7 +4,7 @@ import {
   signup as signupService,
   getSession,
   logout as logoutService,
-} from "../../src/services/auth";
+} from "../services/auth";
 
 export const AuthContext = createContext(null);
 

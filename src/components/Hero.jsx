@@ -33,7 +33,7 @@ export default function Hero() {
             aria-hidden="true"
           ></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <img src="src\assets\Screenshot 2025-10-27 175635.png" alt="" />
+            <img src="src\assets\src\assets\heroimage.png" alt="hero image" />
           </div>
         </div>
       </div>
