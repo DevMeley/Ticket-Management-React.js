@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import HomeHeader from "../components/Header";
 import { MdManageHistory, MdOutlinePhonelinkSetup } from "react-icons/md";
 import { LuTicket } from "react-icons/lu";
-import Footer from "../components/footer";
+import Footer from "../components/Footer1";
 
 export default function Landing() {
   return (
