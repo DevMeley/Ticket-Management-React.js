@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getTickets } from "../services/tickets";
 import TicketCard from "../components/TicketCard";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/AuthContext1";
 
 export default function Dashboard() {
   const [tickets, setTickets] = useState([]);

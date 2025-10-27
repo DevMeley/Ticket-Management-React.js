@@ -4,7 +4,7 @@ import { BiSolidCategoryAlt } from "react-icons/bi";
 import { IoSettingsSharp } from "react-icons/io5";
 import { LuLogOut } from "react-icons/lu";
 import { Link, useLocation } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/AuthContext1";
 
 function SideBar({ isSideBar, openSideMenu }) {
   const { session, logout } = useContext(AuthContext);

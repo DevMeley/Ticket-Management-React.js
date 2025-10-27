@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext1";
 import { showToast } from "../../../Utils/toast";
 
 export default function Signup() {
@@ -33,7 +33,9 @@ export default function Signup() {
   return (
     <main className="min-h-screen flex items-center justify-center py-12">
       <form onSubmit={handleSubmit} className="w-full max-w-md card">
-        <h2 className="text-2xl font-semibold mb-4 flex justify-center">Sign up</h2>
+        <h2 className="text-2xl font-semibold mb-4 flex justify-center">
+          Sign up
+        </h2>
         {errors.form && <div className="text-red-600 mb-2">{errors.form}</div>}
         <label className="block mt-3">
           <div className="text-sm mb-1">Full name</div>
@@ -81,9 +83,9 @@ export default function Signup() {
           </button>
         </div>
         <div className="mt-6 flex items-center justify-center">
-          Already have an account? {" "}
+          Already have an account?{" "}
           <Link to="/auth/signin">
-            <span className="text-blue-700">  Sign in</span>
+            <span className="text-blue-700"> Sign in</span>
           </Link>
         </div>
       </form>
