@@ -1,5 +1,6 @@
 // FILE: src/components/Hero.jsx
 import { Link } from "react-router-dom";
+import heroImage from "../assets/heroimage.png"
 
 export default function Hero() {
   return (
@@ -33,7 +34,7 @@ export default function Hero() {
             aria-hidden="true"
           ></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <img src="src\assets\src\assets\heroimage.png" alt="hero image" />
+            <img src={heroImage} alt="hero image" />
           </div>
         </div>
       </div>
